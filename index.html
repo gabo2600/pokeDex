@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="text-bg-dark">
+        <h1>Pokedex</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Ditto</h2>
+            <img src="" alt="pokemon">
+            <br>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#details">
+                Ver detalles del pokémon
+            </button>
+        </div>
+    
+    
+        <button id="next" class="btn btn-outline-primary">
+            Mostrar pokémon
+        </button>
+    </main>
+
+  <div class="modal fade" id="details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="title">Ditto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="desc">
+          asdjsdsklsdjakl
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+    <footer class="text-bg-dark px-3 py-4 d-flex p-2">
+        <small class="align-self-center ">Front end por Gabriel Vélez</small>
+    </footer>
+</body>
+
+    <script src="js/bootstrap.min.js"></script>
+</html>

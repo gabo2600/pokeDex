@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    height: 10vh;
+}
+main{
+    height: 80vh;
+    margin-inline:auto ;
+    width:80vw;
+    padding:2rem;
+}
+
+footer{
+    max-height: 10vh;
+}
