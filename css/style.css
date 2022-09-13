@@ -2,16 +2,37 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow: hidden;
+}
+
 header{
     height: 10vh;
 }
 main{
-    height: 80vh;
+    height: 85vh;
     margin-inline:auto ;
-    width:80vw;
+    width:50vw;
     padding:2rem;
 }
 
 footer{
-    max-height: 10vh;
+    height: 5vh;
+    text-align: center;
+}
+
+button{
+    max-width: 15rem;
+}
+
+img{
+    width:12rem;
+    border:2px solid black;
+    border-radius: 10px;
+    margin-block: 1rem;
+}
+
+.data{
+    display:grid;
+
 }

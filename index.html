@@ -13,18 +13,22 @@
         <h1>Pokedex</h1>
     </header>
 
-    <main>
-        <div class="container">
-            <h2>Ditto</h2>
-            <img src="" alt="pokemon">
-            <br>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#details">
+    <main class="container d-flex flex-column justify-content-between">
+        <div class="data">
+            
+            <img src="" id="pk-img" alt="pokemon">
+            
+            <div>
+              <h2 id="pk-name"></h2>
+            </div>
+
+            <button type="button" id="setModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#details">
                 Ver detalles del pokémon
             </button>
         </div>
     
     
-        <button id="next" class="btn btn-outline-primary">
+        <button id="next" class="btn btn-primary">
             Mostrar pokémon
         </button>
     </main>
@@ -54,4 +58,5 @@
 </body>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </html>
