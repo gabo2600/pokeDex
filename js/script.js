@@ -53,7 +53,6 @@
 
 
             type = type[0].name;
-            console.log(type)
 
             document.querySelector('#type').innerHTML += `<li class= "${typeClass} types">${type}</li>`;
         });
@@ -106,7 +105,6 @@
 
 
             type = type[0].name;
-            console.log(type)
 
             let d = `
                 <b>Detalles:</b> ${
@@ -176,14 +174,6 @@
             }
             count++;
         }
-    }
-
-
-    let setModal = async () => {
-
-        console.log(selectedPk);
-
-
     }
 
     // _Funcion para poner el siguiente pokemon
