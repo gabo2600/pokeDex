@@ -15,16 +15,25 @@
 
     <main class="container d-flex flex-column justify-content-between">
         <div class="data">
-            
-            <img src="" id="pk-img" alt="pokemon">
-            
+          <img src="" id="pk-img" alt="pokemon">
             <div>
-              <h2 id="pk-name"></h2>
-            </div>
-
-            <button type="button" id="setModal" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#details">
+              
+              <div>
+                <h2 id="pk-name"></h2>
+                <h5>Tipo(s): </h5>
+                <ul id="type"></ul>
+              </div>
+              <button type="button" id="setModal" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#details">
                 Ver detalles del pokémon
-            </button>
+              </button>
+              
+            </div>
+              
+            <article>
+                
+              </article>
+
+            
         </div>
     
     
@@ -41,7 +50,10 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="desc">
-          asdjsdsklsdjakl
+          <h5>Habilidades pasivas</h5>
+            <ul id="skill"></ul>
+          <h5>Movimientos que puede aprender</h5>
+            <ul id="moves"></ul>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
