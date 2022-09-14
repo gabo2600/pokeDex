@@ -73,7 +73,6 @@
             }
             document.querySelector('#skill').innerHTML += `<li><b>${name}:</b><ul><li>${d}</li></ul> </li>`;
         })
-
         // Moves
         document.querySelector('#moves').innerHTML = '';
         await selectedPk.moves.forEach(async (m) => {
@@ -149,6 +148,16 @@
 
             document.querySelector('#moves').appendChild(btn);
             document.querySelector('#moves').appendChild(div);
+
+            //Stats
+            document.querySelector('#stats').innerHTML = ''
+            selectedPk.stats.forEach(s=>{
+                document.querySelector('#stats').innerHTML+= `
+                    <b>${s.stat.name} : </b> ${s.base_stat}
+                    <div class="bar" style="width:${s.base_stat/5}rem"></div>
+
+                `;
+            })
         });
 
     }

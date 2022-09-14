@@ -196,6 +196,12 @@ img{
     overflow: hidden;
 }
 
+.bar{
+    background-color: rgb(2, 172, 240);
+    height: 0.4rem;
+    border-radius:10px ;
+
+}
 
 @media (max-width: 900px) {
     .data{
